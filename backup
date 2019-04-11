@@ -1,0 +1,2 @@
+#Run every 15minutes
+*/15 * * * *     /usr/bin/zip /home/ubuntu/workspace/archieve/archieve.zip /home/ubuntu/workspace/data1/ && /usr/bin/rsync -av --delete /home/ubuntu/workspace/archieve/ /home/ubuntu/workspace/data2/
